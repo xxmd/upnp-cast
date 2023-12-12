@@ -11,7 +11,8 @@ A example project for cast media file(Image, Video, Audio) from android device t
    	- Allow control my player remotely.
    	- Allow auto play my media.  
 
-   ![](https://wms-file-bucket.oss-cn-hangzhou.aliyuncs.com/Snipaste_2023-12-12_17-31-50.png)  
+   ![](https://wms-file-bucket.oss-cn-hangzhou.aliyuncs.com/Snipaste_2023-12-12_17-31-50.png)  |
+   ---|
 
 3. Run **upnp-cast** application, choose device firstly, then cast any media file by yourself.
 4. You will see visualize result on compute screen when cast successfully.
