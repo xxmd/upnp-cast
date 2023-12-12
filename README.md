@@ -29,5 +29,5 @@ Some compute cannot cast audio successfully due to lack audio output device(`hea
 ## Reference
 
 1. [Upnp document](https://openconnectivity.org/upnp-specs/UPnP-arch-DeviceArchitecture-v2.0-20200417.pdf)
-2. [Cling]([4thline/cling: UPnP/DLNA library for Java and Android (github.com)](https://github.com/4thline/cling))
+2. [Cling](https://github.com/4thline/cling)
 
