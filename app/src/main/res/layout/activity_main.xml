@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <Button
+        android:drawableLeft="@mipmap/ic_search"
+        android:id="@+id/btn_search"
+        android:drawablePadding="5dp"
+        android:backgroundTint="#3c61dd"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Search"/>
+
+
+    <LinearLayout
+        android:id="@+id/cast_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:drawablePadding="5dp"
+            android:drawableLeft="@mipmap/image"
+            android:id="@+id/btn_image"
+            android:backgroundTint="#3c61dd"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cast Image"/>
+
+
+        <Button
+            android:drawablePadding="5dp"
+            android:drawableLeft="@mipmap/video"
+            android:id="@+id/btn_video"
+            android:backgroundTint="#3c61dd"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cast Video"/>
+
+
+        <Button
+            android:drawablePadding="5dp"
+            android:drawableLeft="@mipmap/audio"
+            android:id="@+id/btn_audio"
+            android:backgroundTint="#3c61dd"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cast Aduio"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,3 @@
+rootProject.name = "upnp-cast"
+include ':app'
+include ':mylibrary'

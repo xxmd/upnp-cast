@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/footer_white_card"
+    android:padding="20dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:alignItems="center"
+        app:justifyContent="space_between">
+
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/tv_title"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="搜索中..."/>
+
+        <com.github.ybq.android.spinkit.SpinKitView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/spin_kit"
+            style="@style/SpinKitView.Large.Wave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:SpinKit_Color="#3c61dd" />
+
+        <TextView
+            android:textColor="#999999"
+            android:id="@+id/tv_wifi_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="手机网络:Viterbi"/>
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:id="@+id/recycler"
+            android:layout_height="300dp"/>
+
+        <TextView
+            android:id="@+id/empty_view"
+            android:textColor="#999999"
+            android:layout_gravity="center"
+            android:drawablePadding="10dp"
+            android:drawableTop="@drawable/ic_empty"
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设备列表空空如也"/>
+    </FrameLayout>
+
+    <com.google.android.flexbox.FlexboxLayout
+        app:alignItems="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:justifyContent="space_between">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:textColor="#7b7e80"
+            android:backgroundTint="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="取消"/>
+
+        <Button
+            android:id="@+id/btn_restart_search"
+            android:backgroundTint="#F1CA0F"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="重新搜索"/>
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:backgroundTint="#3c61dd"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确认"/>
+
+    </com.google.android.flexbox.FlexboxLayout>
+</LinearLayout>

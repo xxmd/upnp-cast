@@ -1,0 +1,32 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        jcenter()
+        google()
+        maven { url 'https://jitpack.io' }
+        // for cling and jetty
+        maven {
+            allowInsecureProtocol(true)
+            url "http://4thline.org/m2/"
+        }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.2.2'
+    }
+}
+
+// https://docs.gradle.org/6.7.1/samples/index.html
+
+allprojects {
+    repositories {
+        mavenCentral()
+        jcenter()
+        google()
+        maven { url 'https://jitpack.io' }
+        // for cling and jetty
+        maven {
+            allowInsecureProtocol(true)
+            url "http://4thline.org/m2/"
+        }
+    }
+}

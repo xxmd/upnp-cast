@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#F8F8F8"
+    app:cardCornerRadius="4dp"
+    app:contentPadding="16dp">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_device_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLines="2"
+            android:textSize="16sp"
+            android:text="康佳 98S545C PRO 康佳 98S545C PRO 康佳 98S545C PRO 康佳 98S545C PRO"
+            android:textColor="#333333" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/tv_connected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="未连接"
+            android:textColor="#999999" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
