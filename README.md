@@ -18,12 +18,8 @@ A example project for cast media file(Image, Video, Audio) from android device t
 
 ## Screenshot
 
-<div>
-	<iamge src="https://wms-file-bucket.oss-cn-hangzhou.aliyuncs.com/Screenshot_20231212_183339_io.github.xxmd.jpg"></iamge>  
-	<iamge src="https://wms-file-bucket.oss-cn-hangzhou.aliyuncs.com/Screenshot_20231212_183329_io.github.xxmd.jpg"></iamge> 
-	<iamge src="https://wms-file-bucket.oss-cn-hangzhou.aliyuncs.com/Screenshot_20231212_183306_io.github.xxmd.jpg"></iamge>   
-</div>
-
+| ![Audio Cast](https://wms-file-bucket.oss-cn-hangzhou.aliyuncs.com/Screenshot_20231212_183306_io.github.xxmd.jpg) | ![Video Cast](https://wms-file-bucket.oss-cn-hangzhou.aliyuncs.com/Screenshot_20231212_183329_io.github.xxmd.jpg) | ![Image Cast](https://wms-file-bucket.oss-cn-hangzhou.aliyuncs.com/Screenshot_20231212_183339_io.github.xxmd.jpg) |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
 ## Warning
 
