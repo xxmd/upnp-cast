@@ -17,13 +17,13 @@ A example project for cast media file(Image, Video, Audio) from android device t
 4. You will see visualize result on compute screen when cast successfully.
 
 ## Screenshot
-```html
+
 <div>
 	<iamge src="https://wms-file-bucket.oss-cn-hangzhou.aliyuncs.com/Screenshot_20231212_183339_io.github.xxmd.jpg"></iamge>  
 	<iamge src="https://wms-file-bucket.oss-cn-hangzhou.aliyuncs.com/Screenshot_20231212_183329_io.github.xxmd.jpg"></iamge> 
 	<iamge src="https://wms-file-bucket.oss-cn-hangzhou.aliyuncs.com/Screenshot_20231212_183306_io.github.xxmd.jpg"></iamge>   
 </div>
-```
+
 
 ## Warning
 
