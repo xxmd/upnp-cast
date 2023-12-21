@@ -1,6 +1,6 @@
 # UPNP-CAST
 
-A example project for cast media file(Image, Video, Audio) from android device to windows computer by [UPNP]([Universal Plug and Play Device Architecture (openconnectivity.org)](https://openconnectivity.org/upnp-specs/UPnP-arch-DeviceArchitecture-v2.0-20200417.pdf)) protocol.
+A example project for cast media file(Image, Video, Audio) from android device to windows computer by [UPNP](https://openconnectivity.org/upnp-specs/UPnP-arch-DeviceArchitecture-v2.0-20200417.pdf) protocol.
 
 ## Getting started
 
