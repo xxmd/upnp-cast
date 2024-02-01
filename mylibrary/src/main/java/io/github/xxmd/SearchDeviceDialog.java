@@ -233,7 +233,7 @@ public class SearchDeviceDialog extends BaseBottomDialog implements RegistryList
 
     private void reStartSearch() {
         availableDevices.clear();
-        deviceAdapter.setSelectItem(null);
+        deviceAdapter.selectByObject(null);
         deviceAdapter.notifyDataSetChanged();
         stopSearch();
         startSearch();

@@ -55,7 +55,7 @@ dependencies {
     implementation 'io.reactivex.rxjava3:rxjava:3.1.5'
     implementation 'me.shaohui:bottomdialog:1.1.9'
     implementation 'com.github.ybq:Android-SpinKit:1.4.0'
-    implementation 'io.github.xxmd:extend-adapter:1.0.2'
+    implementation 'io.github.xxmd:extend-adapter:1.0.5'
 }
 
 afterEvaluate {
@@ -67,7 +67,7 @@ afterEvaluate {
 ext {
     publishedGroupId = 'io.github.xxmd'
     artifact = rootProject.name
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.0.1'
     libraryDescription = 'Media cast from android device to Windows Media Player with DLNA protocol'
     siteUrl = 'https://github.com/xxmd/' + artifact
 }
